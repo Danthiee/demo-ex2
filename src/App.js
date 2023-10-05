@@ -1,18 +1,16 @@
 import './App.css';
-import hello from './hello.jpg'
+import me from './me.jpg'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={hello} alt="hello world" />
+      <img src ={me} alt="anh ve 1 co gai xinh dep" width="500" height="700" />
         <p>
-          welcome to my page
+          flex sự xinh đẹp
         </p>
 
-
-        <h2> click here! </h2>
-        <a href="https://www.youtube.com/watch?v=82ZTNQNEQgE"> clickkkk </a>
+        <a href="https://www.facebook.com/ddanthiee/"> click here to my inf </a>
       </header>
     </div>
   );
