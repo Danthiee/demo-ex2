@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*==Style cho menu===*/
+#menu ul {
+  background: #025a4a;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #000f0a;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+}
+#menu ul li a:hover {
+  background: #002621;
+  color: #0C0A0A;
+}

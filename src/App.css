@@ -14,18 +14,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #d0a4d0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(111, 33, 107);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #0c000d;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+/* Định dạng menu ở góc bên trái */
+.App-menu {
+  position: fixed; /* Đảm bảo menu cố định trên trang */
+  top: 0; /* Vị trí từ trên xuống */
+  left: 0; /* Vị trí từ bên trái sang */
+  background-color: #333; /* Màu nền menu */
+  padding: 20px; /* Khoảng cách bên trong menu */
+  z-index: 1; /* Đảm bảo menu hiển thị trên các phần tử khác */
+}
+
+.App-menu ul {
+  list-style-type: none; /* Loại bỏ dấu chấm trước mục */
+  padding: 0; /* Loại bỏ khoảng cách trong danh sách */
+}
+
+.App-menu li {
+  margin-bottom: 10px; /* Khoảng cách giữa các mục menu */
+}
+
+.App-menu a {
+  color: #fff; /* Màu văn bản menu */
+  text-decoration: none; /* Loại bỏ đường gạch chân */
+}
+
+/* Định dạng nội dung trong App-header (giữ nguyên cấu trúc hiện tại) */
+
+
+
